@@ -9,7 +9,7 @@ int main() {
     int p_count = sizeof(p_values) / sizeof(p_values[0]);
     
     // Open a file to store results
-    FILE *file = fopen("results.csv", "w");
+    FILE *file = fopen("q1_a_results.csv", "w");
     if (file == NULL) {
         printf("Error: Could not open file for writing.\n");
         return 1;

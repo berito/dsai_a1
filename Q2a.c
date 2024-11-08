@@ -189,7 +189,7 @@ int main()
     int t = 12;  // Set the number of threads (can be changed)
 
     // Open CSV file for writing
-    FILE *file = fopen("execution_times.csv", "a");
+    FILE *file = fopen("../csv/q2_a_results.csv", "a");
     if (file == NULL)
     {
         printf("Error opening file for writing.\n");

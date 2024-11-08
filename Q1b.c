@@ -9,7 +9,7 @@ int main() {
     int step_size = 500; // Larger steps for better visualization
 
     // Open a CSV file for writing
-    FILE *file = fopen("parallel_efficiency_analysis_updated.csv", "w");
+    FILE *file = fopen("q1_b_results.csv", "w");
     if (file == NULL) {
         printf("Error: Could not open file for writing.\n");
         return 1;

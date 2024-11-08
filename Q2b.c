@@ -58,7 +58,7 @@ int main() {
     pthread_mutex_init(&m, NULL);
 
     // Open CSV file for writing
-    FILE *file = fopen("profitability_data.csv", "w");
+    FILE *file = fopen("q2_b_results.csv", "w");
     if (!file) {
         printf("Error opening file.\n");
         return 1;
