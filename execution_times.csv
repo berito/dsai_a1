@@ -1,0 +1,16 @@
+Threads,Version,ExecutionTime
+2,Mutex,110.000455
+2,Barrier,110.000245
+2,SharedArray+Barrier,110.000236
+4,Mutex,120.000909
+4,Barrier,110.000649
+4,SharedArray+Barrier,110.000536
+8,Mutex,140.002060
+8,Barrier,110.001929
+8,SharedArray+Barrier,110.001711
+10,Mutex,150.002019
+10,Barrier,110.002580
+10,SharedArray+Barrier,110.002373
+12,Mutex,160.002775
+12,Barrier,110.002529
+12,SharedArray+Barrier,110.002943
