@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Read the CSV file
-data = pd.read_csv("results.csv")
+data = pd.read_csv("../csv/q1_a_results.csv")
 
 # Plot Speedup vs. p for different values of n
 plt.figure(figsize=(10, 6))

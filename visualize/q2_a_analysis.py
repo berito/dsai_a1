@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Step 1: Read the data
-df = pd.read_csv('execution_times.csv')
+df = pd.read_csv('../csv/q2_a_results.csv')
 
 # Step 2: Set up the plot
 plt.figure(figsize=(12, 8))

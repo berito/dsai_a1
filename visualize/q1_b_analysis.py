@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the data
-data = pd.read_csv("parallel_efficiency_analysis_updated.csv")
+data = pd.read_csv("../csv/q1_b_results.csv")
 
 # Plot slow growth efficiency
 plt.plot(data["Problem Size"], data["Efficiency (slow growth)"], label="Slow Growth", marker="o")
