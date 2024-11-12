@@ -48,6 +48,7 @@ double sequentialCompute (long iterations);
 double parallelCompute(long iterations, int numberOfThreads);
 double getDifference(double calculatedPi);
 
+
 // Main method
 int main(int argc, char* argv[])
 {
